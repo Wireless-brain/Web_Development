@@ -44,16 +44,16 @@ label
  
 input
 {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: rgba(255, 255, 255, 0.5) solid;
+    background-color: rgb(192, 192, 192);
+    border: rgb(192, 192, 192) solid;
     border-radius: 17px;
 }
 
 button
 {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(192, 192, 192);
     color: black;
-    border: rgba(255, 255, 255, 0.5) solid;
+    border: rgb(192, 192, 192) solid;
     margin-top: 20px;
     margin-left: 57px;
     height: 40px;
@@ -94,4 +94,34 @@ p
     background-color: rgba(255, 255, 255, 0.5);
     border: rgba(255, 255, 255, 0.5) solid;
     border-radius: 17px;
+}
+
+footer
+{
+    padding-top: 150px;
+    /*padding-bottom: 10px;*/
+}
+
+.p1
+{
+    font-size: 15px;
+    margin-bottom: -10px;
+    text-align: right;
+}
+
+.p2
+{
+    font-size: 15px;
+    margin-bottom: -10px;
+    text-align: right;
+}
+
+a
+{
+    color: white;
+}
+
+sup
+{
+    font-size: 7px;
 }
