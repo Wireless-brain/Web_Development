@@ -1,27 +1,26 @@
 body
 {
     background-image: url('backGrnd.jpg');
-    padding-top: 300px;;
 }
 
 div
 {
-    background-color: #585b5c;
+    background-color: rgba(88, 91, 92, 70%);
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 180px;
     margin-bottom: auto;
     width: 250px;
-    height: 190px;
+    height: 300px;
     padding-top: 10px;
-    border-radius: 20px;;
+    border-radius: 20px;
 }
 
-h3
+h2
 {
     text-align: center;
     color: #000000;
-    margin-top: auto;
+    margin-top: 10px;
     margin-bottom: auto;
 }
 
@@ -29,7 +28,8 @@ fieldset
 {
     display: inline;
     border: none;
-    margin-left: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
     margin-right: none;
 }
 
@@ -37,14 +37,61 @@ label
 {
     font-size: 20px;
     color: #000000;
-    display: inline;
+    /*display: inline;*/
     display: block;
     margin: 0.5rem 0;
 }
  
 input
 {
-    background-color: #ffffff;
-    border: #ffffff solid;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: rgba(255, 255, 255, 0.5) solid;
+    border-radius: 17px;
+}
+
+button
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border: rgba(255, 255, 255, 0.5) solid;
+    margin-top: 20px;
+    margin-left: 57px;
+    height: 40px;
+    width: 70px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+h1
+{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 50px;
+    margin-bottom: 2px;
+    margin-left: 50px;
+}
+
+p
+{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    margin-top: -1px;
+    margin-left: 50px;
+}
+
+.new
+{
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 15px;
+    padding-top: 4px;
+}
+
+.newInpt
+{
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: rgba(255, 255, 255, 0.5) solid;
     border-radius: 17px;
 }
