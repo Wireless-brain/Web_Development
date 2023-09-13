@@ -1,14 +1,49 @@
 body
 {
-    background-color: blue;
+    background-color: #f8d2d2;
+    padding-top: 300px;;
 }
 
-h1
+div
 {
-    color: black;
+    background-color: #e75d5d;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 250px;
+    height: 190px;
+    padding-top: 10px;
+    border-radius: 20px;;
 }
 
-p
+h3
 {
-    color: red;
+    text-align: center;
+    color: #534a4a;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+fieldset
+{
+    display: inline;
+    border: none;
+    margin-left: 25px;
+    margin-right: none;
+}
+
+label
+{
+    font-size: 20px;
+    color: #373333;
+    display: inline;
+    display: block;
+    margin: 0.5rem 0;
+}
+ 
+input
+{
+    background-color: #de9090;
+    border: #de9090 solid;
 }

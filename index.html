@@ -6,8 +6,16 @@
         <title>First Website</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body background-color="blue">
-        <h1>Hallo Everyone!!</h1>
-        <p>All the people of the world, hallo</p>
+    <body>
+       <div>
+        <h3>SIGN IN</h3>
+        <fieldset>
+            <form action="somewebsite.com">
+                <label for="username">Username: <input id="username" name="username" type="text" required/></label>
+                <label class="new" for="password">Password: <input id="password" name="password" type="password" pattern="[a-z0-5]{8,}" required/></label>
+                <button action="submit">Submit</button>
+            </form>
+        </fieldset>
+       </div>
     </body>
 </html>
