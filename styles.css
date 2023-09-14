@@ -2,6 +2,8 @@ body
 {
     background-image: url('backGrnd.jpg');
     font-family: Tahoma;
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
 }
 
 div
@@ -149,4 +151,3 @@ sup
     margin-top: -12px;
     margin-bottom: -3px;
     margin-left: 43px;
-}
